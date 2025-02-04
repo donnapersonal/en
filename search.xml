@@ -4,11 +4,11 @@
   
     
     <entry>
-      <title>script_defer_async</title>
-      <link href="/en/2025/02/03/script-defer-async/"/>
-      <url>/en/2025/02/03/script-defer-async/</url>
+      <title>script 标签的 defer 与 async</title>
+      <link href="/2021/04/15/script-defer-async/"/>
+      <url>/2021/04/15/script-defer-async/</url>
       
-        <content type="html"><![CDATA[<p><img src="script-defer-async/script.png" alt="script 标签"></p><h1 id="普通-script-标签"><a href="#普通-script-标签" class="headerlink" title="普通 script 标签"></a>普通 script 标签</h1><h1 id="defer"><a href="#defer" class="headerlink" title="defer"></a>defer</h1><h1 id="async"><a href="#async" class="headerlink" title="async"></a>async</h1>]]></content>
+        <content type="html"><![CDATA[<p><img src="script.png" alt="script 标签"></p><h1 id="普通-script-标签"><a href="#普通-script-标签" class="headerlink" title="普通 script 标签"></a>普通 script 标签</h1><p><code>JS</code> 可能会修改 <code>HTML</code> 和 <code>CSS</code>，因此 <code>JS</code> 的下载执行过程不能和 <code>HTML/CSS</code> 并行</p><p>代码执行过程：</p><ul><li><code>HTML</code> 解析过程中若碰到外联的 <code>JS</code> 会暂时中止 <code>HTML</code> 的解析流程</li><li>等待脚本下载和解析完成后再继续进行之前中断掉的 <code>HTML</code> 解析流程</li></ul><p>因此，<code>script</code> 标签外联 <code>JS</code> 加载有这样的缺点：</p><ul><li><strong>会影响整个页面效率，一旦网速不好整个网站将等待 <code>JS</code> 加载而不进行后续渲染</strong></li><li><strong>由于中断了 <code>HTML</code> 解析流程，所以会导致页面空白等，影响体验</strong></li></ul><blockquote><p>早前，常用的写法是将 <code>script</code> 标签写在 <code>body</code> 最后面，等 <code>DOM</code> 全部解析完成后才加载 <code>JS</code>，但 <code>HTML5</code> 标准有另一套异步加载 <code>JS</code> 的方法（<code>defer</code> &#x2F; <code>async</code>）</p></blockquote><h1 id="defer"><a href="#defer" class="headerlink" title="defer"></a>defer</h1><h1 id="async"><a href="#async" class="headerlink" title="async"></a>async</h1>]]></content>
       
       
       <categories>
