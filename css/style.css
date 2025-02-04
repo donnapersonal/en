@@ -1,0 +1,105 @@
+/* 颜色 */
+:root {
+  --donna: #E68282;
+  --donna-theme-op: #4259ef23;
+  --donna-gray-op: #9999992b;
+  --donna-white: #fff;
+  --donna-black: #000;
+  --donna-none: rgba(0, 0, 0, 0);
+  --donna-purple: #E764FF;
+  --donna-gray: #999999;
+  --donna-light-grey: #F2F2F2;
+  --donna-yellow: #ffc93e;
+  --donna-orange: #ff9900;
+  --donna-border-radius: 8px;
+  --donna-main: var(--donna-theme);
+  --donna-main-op: var(--donna-theme-op);
+  --donna-shadow-theme: 0 8px 12px -3px var(--donna-theme-op);
+  --donna-shadow-main: 0 8px 12px -3px var(--donna-main-op);
+  --donna-shadow-blue: 0 8px 12px -3px rgba(40, 109, 234, 0.2);
+  --donna-shadow-white: 0 8px 12px -3px rgba(255, 255, 255, 0.2);
+  --donna-shadow-black: 0 0 12px 4px rgba(0, 0, 0, 0.05);
+  --donna-shadow-yellow: 0px 38px 77px -26px rgba(255, 201, 62, 0.12);
+  --donna-shadow-red: 0 8px 12px -3px #ee7d7936;
+  --donna-shadow-green: 0 8px 12px -3px #87ee7936;
+  --donna-shadow-border: 0 8px 16px -4px #2c2d300c;
+  --donna-logo-color: linear-gradient(215deg, #4584ff 30%, #ff7676 70%);
+  --style-border: 1px solid var(--donna-card-border);
+  --donna-blue-main: #3b70fc;
+  --style-border-hover: 1px solid var(--donna-main);
+  --style-border-dashed: 1px dashed var(--donna-theme-op);
+  --style-border-avatar: 4px solid var(--donna-background);
+  --style-border-always: 1px solid var(--donna-card-border);
+  --donna-white-acrylic1: #fefeff !important;
+  --donna-white-acrylic2: #fcfdff !important;
+  --donna-black-acrylic2: #08080a !important;
+  --donna-black-acrylic1: #0b0b0e !important;
+  --middle-y-multiplier: 1.5; /* 假设元素在 Y 轴上的平移为原始位置的 1.5 倍 */
+  --middle-scale-multiplier: 1.2; /* 假设元素的纵向缩放为原始大小的 1.2 倍 */
+  --heo-theme: var(--donna-border) !important;
+}
+
+[data-theme="light"] {
+  --donna-theme: #E68282;
+  --donna-theme-op: #4259ef23;
+  --donna-blue: #3b70fc;
+  --donna-red: #d8213c;
+  --donna-pink: #ff7c7c;
+  --donna-green: #57bd6a;
+  --donna-fontcolor: #4c4948;
+  --donna-background: #f7f9fe;
+  --donna-reverse: #000;
+  --donna-maskbg: rgba(255, 255, 255, 0.6);
+  --donna-maskbgdeep: rgba(255, 255, 255, 0.85);
+  --donna-hovertext: var(--donna);
+  --donna-ahoverbg: #f7f7fa;
+  --donna-lighttext: var(--donna-main);
+  --donna-secondtext: rgba(60, 60, 67, 0.6);
+  --donna-scrollbar: rgba(60, 60, 67, 0.4);
+  --donna-card-btn-bg: #edf0f7;
+  --donna-post-blockquote-bg: #fafcff;
+  --donna-post-tabs-bg: #f2f5f8;
+  --donna-secondbg: #f7f7f9;
+  --donna-shadow-nav: 0 5px 12px -5px rgba(102, 68, 68, 0.05);
+  --donna-card-bg: #fff;
+  --donna-shadow-lightblack: 0 5px 12px -5px rgba(102, 68, 68, 0);
+  --donna-shadow-light2black: 0 5px 12px -5px rgba(102, 68, 68, 0);
+  --donna-card-border: #c0c6d8;
+  --donna-copyright-bg: #eff1f3;
+  --donna-border: #E68282
+}
+
+[data-theme="dark"] {
+  --donna-theme: #333333;
+  --donna-theme-op: #0084ff23;
+  --donna-blue: #0084ff;
+  --donna-red: #ff3842;
+  --donna-pink: #ff7c7c;
+  --donna-green: #57bd6a;
+  --donna-fontcolor: #f7f7fa;
+  --donna-background: #18171d;
+  --donna-reverse: #fff;
+  --donna-maskbg: rgba(0, 0, 0, 0.6);
+  --donna-maskbgdeep: rgba(0, 0, 0, 0.85);
+  --donna-hovertext: #0a84ff;
+  --donna-ahoverbg: #fff;
+  --donna-lighttext: #f2b94b;
+  --donna-secondtext: #a1a2b8;
+  --donna-scrollbar: rgba(200, 200, 223, 0.4);
+  --donna-card-btn-bg: #30343f;
+  --donna-post-blockquote-bg: #000;
+  --donna-post-tabs-bg: #121212;
+  --donna-secondbg: #30343f;
+  --donna-shadow-nav: 0 5px 20px 0px rgba(28, 28, 28, 0.4);
+  --donna-card-bg: #1b1c20;
+  --donna-shadow-lightblack: 0 5px 12px -5px rgba(102, 68, 68, 0);
+  --donna-shadow-light2black: 0 5px 12px -5px rgba(102, 68, 68, 0);
+  --donna-card-border: #42444a;
+  --donna-copyright-bg: #323335;
+  --donna-border: #c8c8c8
+}
+
+.loading-img {
+    background: url(../img/avatar.JPG) no-repeat center center;
+    background-size: cover;
+}
