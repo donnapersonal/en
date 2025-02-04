@@ -5,10 +5,10 @@
     
     <entry>
       <title>script_defer_async</title>
-      <link href="/en/2025/02/03/script-defer-async/"/>
-      <url>/en/2025/02/03/script-defer-async/</url>
+      <link href="/2025/02/03/script-defer-async/"/>
+      <url>/2025/02/03/script-defer-async/</url>
       
-        <content type="html"><![CDATA[<p><img src="script-defer-async/script.png" alt="script 标签"></p><h1 id="普通-script-标签"><a href="#普通-script-标签" class="headerlink" title="普通 script 标签"></a>普通 script 标签</h1><h1 id="defer"><a href="#defer" class="headerlink" title="defer"></a>defer</h1><h1 id="async"><a href="#async" class="headerlink" title="async"></a>async</h1>]]></content>
+        <content type="html"><![CDATA[<p><img src="script.png" alt="script 标签"></p><h1 id="普通-script-标签"><a href="#普通-script-标签" class="headerlink" title="普通 script 标签"></a>普通 script 标签</h1><h1 id="defer"><a href="#defer" class="headerlink" title="defer"></a>defer</h1><h1 id="async"><a href="#async" class="headerlink" title="async"></a>async</h1>]]></content>
       
       
       <categories>
